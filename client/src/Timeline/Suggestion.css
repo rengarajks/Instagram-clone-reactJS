@@ -1,0 +1,34 @@
+.suggestion-divs{
+
+    
+}
+
+.suggestion-div-single{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px 10px 12px 10px;
+}
+
+.suggestion-div-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.new-to-instagram-suggestion{
+    font-size: 10px;
+    color: gray;
+}
+
+.suggestion-btn{
+    font-weight: 400;
+    color: rgba(0, 89, 255, 0.89);
+    background: 0;
+    border: 0;
+}
+
+.suggestion-btn:hover{
+    cursor: pointer;
+    color: white;
+}

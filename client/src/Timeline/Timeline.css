@@ -1,0 +1,13 @@
+.main-timeline{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.posts{
+    flex: 0.8;
+}
+
+.suggestion{
+    flex: 0.2;
+}

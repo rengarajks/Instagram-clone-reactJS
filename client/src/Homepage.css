@@ -1,0 +1,18 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    flex: 0.2;
+
+}
+
+.timeline{
+    flex: 0.8;
+}

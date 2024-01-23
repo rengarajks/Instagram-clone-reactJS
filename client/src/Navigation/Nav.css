@@ -1,0 +1,11 @@
+.nav-main{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    width: 120px;
+    margin: 5px;
+}

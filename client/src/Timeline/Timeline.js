@@ -47,17 +47,9 @@ function Timeline() {
 
 
     <div className='main-timeline'>
-
-
-
-
-
       <div className='posts'>
-
-       
-            
-       {
-        post.map((postinp)=>
+        <div className='post-load'>
+         { post.map((postinp)=>(
           <Posts 
           username={postinp.username} 
           image={postinp.image} 
@@ -65,7 +57,16 @@ function Timeline() {
           timeAt={postinp.timeAt}
           />
         )
+         
+        )
        }
+
+
+        </div>
+
+       
+            
+      
       
 
       

@@ -14,7 +14,7 @@ function Suggestion() {
 
         <div className='suggestion-div-single'>
            <div className='suggestion-div-flex'>
-            <Avatar>R</Avatar>
+            <Avatar src='https://images.pexels.com/photos/1000366/pexels-photo-1000366.jpeg?auto=compress&cs=tinysrgb&w=600'/>
             <div>
             <div>sam</div>
             <div className='new-to-instagram-suggestion'>New to instagram</div>

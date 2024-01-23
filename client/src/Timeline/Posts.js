@@ -17,7 +17,7 @@ function Posts({username,image,likes,timeAt}) {
       <div className='post-header'>
         
         <div className='post-header-author'>
-           <Avatar>R</Avatar>
+           <Avatar src='https://images.pexels.com/photos/4386404/pexels-photo-4386404.jpeg?auto=compress&cs=tinysrgb&w=600'/>
             {username}
             <span> . {timeAt}h</span>
         </div>
